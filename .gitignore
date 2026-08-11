@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+frontend/dist/
+frontend/node_modules/
+
+# .NET
+backend/bin/
+backend/obj/
+backend/*.user
+backend/.vs/
+
+# Env / secrets
+.env
+.env.local
+**/appsettings.Development.json
+backend/appsettings.Local.json
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

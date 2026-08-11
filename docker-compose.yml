@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: interviewtutor-db
+    environment:
+      POSTGRES_USER: interviewtutor
+      POSTGRES_PASSWORD: interviewtutor
+      POSTGRES_DB: interviewtutor
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
