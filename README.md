@@ -27,9 +27,14 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173 — API defaults to http://localhost:5080. Postgres is on host port **5433**.
+Open http://localhost:5173 — Vite proxies `/api` to http://localhost:5080. Postgres is on host port **5433**.
 
-Copy `.env.example` values into `backend/appsettings.Development.json` or environment variables. Set `OPENAI_API_KEY` for real AI replies.
+## Single-app public host (one URL)
+
+UI + API in one Docker image — only deploy **one** service (+ free Neon DB).  
+See [docs/deploy-single.md](docs/deploy-single.md).
+
+Copy `.env.example` values into environment variables. Set `OPENAI_API_KEY` for real AI replies.
 
 ## Curriculum
 

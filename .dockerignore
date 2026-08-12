@@ -1,0 +1,14 @@
+.git
+.vscode
+.idea
+**/bin
+**/obj
+**/node_modules
+frontend/dist
+**/.env
+**/.env.*
+!.env.example
+**/appsettings.Development.json
+agent-transcripts
+.cursor
+*.plan.md

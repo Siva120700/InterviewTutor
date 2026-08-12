@@ -9,7 +9,8 @@ import type {
   Track,
 } from './types'
 
-const BASE = import.meta.env.VITE_API_BASE ?? 'http://localhost:5080'
+// Empty = same origin (single-app deploy). Local Vite uses proxy or VITE_API_BASE.
+const BASE = import.meta.env.VITE_API_BASE ?? ''
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(`${BASE}${path}`, {

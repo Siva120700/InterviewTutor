@@ -2,6 +2,7 @@
 node_modules/
 frontend/dist/
 frontend/node_modules/
+backend/wwwroot/
 
 # .NET
 backend/bin/
