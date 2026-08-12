@@ -14,13 +14,24 @@ Every solution discussion starts with complexity. You must compare O(n) vs O(n l
 
 ## Definitions
 
-- **Big-O (O):** An asymptotic upper bound on how time or space grows as input size n → ∞, ignoring constants and lower-order terms.
-- **Theta (Θ) / Omega (Ω):** Θ is a tight bound (both upper and lower); Ω is a lower bound — interviews usually accept Big-O unless they ask for Θ.
+- **Big-O (O):** An asymptotic **upper** bound on how time or space grows as input size n → ∞, ignoring constants and lower-order terms.
+- **Omega (Ω):** An asymptotic **lower** bound — “at least this fast-growing.”
+- **Theta (Θ):** A **tight** bound (both O and Ω) — growth rate matches from above and below.
 - **Time complexity:** How the number of dominant operations scales with input size (state worst case unless you explicitly mean average).
-- **Space complexity:** Extra memory beyond the input, including auxiliary arrays and recursion call-stack depth.
+- **Space complexity:** Extra (auxiliary) memory beyond the input under variable growth, including arrays you allocate and recursion call-stack depth.
 - **Worst-case vs average-case:** Worst case is the maximum cost over inputs of size n; average case (e.g., hashing) needs a stated input model.
 - **Amortized complexity:** Average cost per operation over a long sequence, even if occasional ops (array resize) are expensive.
 - **Dominant term:** The fastest-growing part of a cost expression that determines Big-O after dropping constants.
+
+## Asymptotic bounds at a glance
+
+| Notation | Reads as | Example |
+|----------|----------|---------|
+| \(f = O(g)\) | f grows no faster than g | binary search is \(O(\log n)\) |
+| \(f = \Omega(g)\) | f grows at least as fast as g | comparison sort is \(\Omega(n \log n)\) |
+| \(f = \Theta(g)\) | f grows exactly like g | merge sort is \(\Theta(n \log n)\) |
+
+Interviews usually accept Big-O; say Θ when you know the bound is tight.
 
 ## Concept
 

@@ -8,14 +8,26 @@ Theory and data structures first. Then switch to **DSA Patterns** for interview 
 
 | Order | Module | Lessons |
 |------:|--------|---------|
-| 1–4 | Foundations | Complexity/Big-O → Arrays → Strings → Binary Search |
-| 10–12 | Core techniques | Two Pointers → Sliding Window → Hashing |
-| 20–21 | Linear | Linked Lists → Stacks & Queues |
-| 30–32 | Trees | Binary Trees → BST → Tries |
-| 40–41 | Heaps | Heaps/Priority Queues → Heaps+DP intro |
-| 50–52 | Graphs | BFS → DFS/Backtracking → Topo + Dijkstra |
+| 0–1 | Foundations & math | Memory/Pointers → Complexity (O/Ω/Θ, time & space) |
+| 2–4 | Core arrays/strings/search | Arrays (static/dynamic) → Strings → Binary Search |
+| 5–6 | Analysis & grids | Recurrences/Master Theorem → Matrices & 2D layouts |
+| 8, 12 | Hashing & indexing | Hash table internals (chaining/probing) → Hashing patterns |
+| 10–11 | Core techniques | Two Pointers → Sliding Window |
+| 20–21 | Linear structures | Linked Lists (singly/doubly/circular) → Stacks/Queues/Deques |
+| 29–33 | Hierarchical (trees) | N-ary Trees → Binary Trees → BST → Tries → AVL & Red-Black |
+| 40–41 | Heaps / priority queues | Heaps & heapify → Heaps + DP intro |
+| 49–54 | Networks (graphs) | Representations → BFS → DFS/Backtracking → Topo/Dijkstra → Bellman-Ford/Floyd → MST (Prim/Kruskal) |
 | 60–62 | DP | 1D → 2D/Knapsack → Advanced |
-| 70 | Tools | Union-Find + Greedy |
+| 70–73 | Advanced structures | Union-Find + Greedy → Segment Trees → Fenwick → Suffix Trees/Arrays |
+
+### Outline coverage map
+
+1. **Foundations & math** — stack/heap memory, pointers/references, time/space complexity, O/Ω/Θ, Master Theorem  
+2. **Linear** — static/dynamic arrays, matrices, singly/doubly/circular lists, stacks, queues, deques, priority queues  
+3. **Hashing** — hash functions, maps/sets, separate chaining, open addressing  
+4. **Trees** — n-ary, binary, BST, traversals, AVL, red-black, heaps/heapify  
+5. **Graphs** — adj matrix/list, directed/undirected, BFS, DFS, shortest paths, MST  
+6. **Advanced** — tries, segment trees, Fenwick, DSU, suffix trees/arrays  
 
 ## DSA Patterns (separate — pattern-based interview prep)
 

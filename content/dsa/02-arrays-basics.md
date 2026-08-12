@@ -24,7 +24,18 @@ Arrays are the substrate for most Easy/Medium problems. Master scans, in-place w
 
 ## Concept
 
-Contiguous memory, O(1) index access, O(n) insert/delete in the middle. Dynamic arrays (`ArrayList`/`List`) amortize append.
+Contiguous memory, O(1) index access, O(n) insert/delete in the middle.
+
+### Static vs dynamic arrays
+
+| | Static (`int[]`) | Dynamic (`ArrayList` / `List<T>`) |
+|---|------------------|-----------------------------------|
+| Size | Fixed at creation | Grows via capacity doubling |
+| Index math | `base + i * stride` | Same under the hood |
+| Append | N/A (or manual copy) | Amortized O(1); occasional O(n) resize |
+| Random access | O(1) | O(1) |
+
+**Resizing strategy:** when full, allocate ~2× capacity, copy elements, replace buffer — total cost over n appends is still \(O(n)\).
 
 ## Worked example 1 — Reverse in place
 

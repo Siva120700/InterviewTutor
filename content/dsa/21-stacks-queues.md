@@ -21,6 +21,25 @@ Stacks encode “most recent unresolved”; queues drive BFS. Monotonic stacks u
 - **Next greater element:** For each index, the nearest later value strictly larger — solved with a monotonic decreasing stack of indices.
 - **Valid parentheses:** Matching every opening bracket with the correct closer in nested order, typically with a stack.
 - **Enqueue / dequeue:** Queue insert at the back and remove from the front; confusing ends breaks BFS and scheduling logic.
+- **Circular buffer queue:** Fixed array with front/rear indices modulo capacity — classic FIFO backing without shifting elements.
+- **Priority queue:** Not FIFO — extracts by priority (usually a heap); see the Heaps lesson.
+
+## Circular buffer (FIFO sketch)
+
+```java
+class RingQueue {
+  final int[] a; int head, tail, size;
+  RingQueue(int cap) { a = new int[cap]; }
+  boolean offer(int x) {
+    if (size == a.length) return false;
+    a[tail] = x; tail = (tail + 1) % a.length; size++; return true;
+  }
+  Integer poll() {
+    if (size == 0) return null;
+    int x = a[head]; head = (head + 1) % a.length; size--; return x;
+  }
+}
+```
 
 ## Worked example 1 — Valid parentheses
 

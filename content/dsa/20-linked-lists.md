@@ -21,10 +21,17 @@ Lists teach pointer manipulation — easy to bug, common in interviews.
 - **In-place reverse:** Reversing link directions by walking prev/cur/next pointers without allocating a new list.
 - **Cycle:** A loop where following `next` never reaches null; detected with Floyd’s slow/fast pointer meeting.
 - **Floyd’s algorithm:** Slow (1 step) and fast (2 steps) meet iff a cycle exists; resetting one to head finds the entrance.
+- **Circular linked list:** Last node’s `next` points back to the first (ring); there is no null terminator — traversal needs a start marker or visit count.
 
 ## Concept
 
 Node → next (→ prev). O(1) insert at head; O(n) access by index. Prefer arrays when random access matters.
+
+| Variant | Links | End condition | Typical use |
+|---------|-------|---------------|-------------|
+| Singly | `next` | `null` | Stacks, simple lists |
+| Doubly | `next` + `prev` | `null` | LRU, O(1) removal |
+| Circular | `next` (ring) | back to head | Round-robin, buffers |
 
 ## Worked example 1 — Reverse list
 
@@ -85,6 +92,36 @@ ListNode Merge(ListNode a, ListNode b) {
 ## Worked example 3 — Cycle (Floyd)
 
 Covered lightly in two-pointers; interview staple: slow/fast meet ⇒ cycle; reset one to head to find entrance.
+
+## Circular list — insert after head
+
+```java
+ListNode insertCircular(ListNode head, int val) {
+  ListNode node = new ListNode(val);
+  if (head == null) {
+    node.next = node;
+    return node;
+  }
+  node.next = head.next;
+  head.next = node;
+  return head;
+}
+```
+
+```csharp
+ListNode InsertCircular(ListNode? head, int val) {
+  var node = new ListNode(val);
+  if (head is null) {
+    node.next = node;
+    return node;
+  }
+  node.next = head.next;
+  head.next = node;
+  return head;
+}
+```
+
+Traverse with `do { ...; cur = cur.next; } while (cur != head);` — never wait for `null`.
 
 ## Dummy node
 
