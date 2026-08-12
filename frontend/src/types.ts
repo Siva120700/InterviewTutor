@@ -71,6 +71,40 @@ export type Problem = {
   complexityNotes: string
 }
 
+export type SheetProblem = {
+  id: string
+  title: string
+  difficulty: string
+  tags?: string[]
+  problemLink?: string | null
+  articleLink?: string | null
+  platform?: string | null
+  videoLink?: string | null
+  missing?: boolean
+}
+
+export type SheetSubgroup = {
+  id: string
+  title: string
+  description?: string
+  problems: SheetProblem[]
+}
+
+export type SheetGroup = {
+  id: string
+  title: string
+  description?: string
+  subgroups: SheetSubgroup[]
+}
+
+export type DsaSheet = {
+  source: string
+  note?: string
+  groupCount: number
+  problemCount: number
+  groups: SheetGroup[]
+}
+
 export type MockSession = {
   id: string
   mode: string

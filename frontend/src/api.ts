@@ -7,6 +7,7 @@ import type {
   SendChatResponse,
   ChatThread,
   Track,
+  DsaSheet,
 } from './types'
 
 // Empty = same origin (single-app deploy). Local Vite uses proxy or VITE_API_BASE.
@@ -57,6 +58,7 @@ export const api = {
   cancelDraft: (id: string) => request<void>(`/api/drafts/${id}/cancel`, { method: 'POST' }),
   problems: () => request<Problem[]>('/api/problems'),
   problem: (slug: string) => request<Problem>(`/api/problems/${encodeURIComponent(slug)}`),
+  dsaSheet: () => request<DsaSheet>('/api/dsa-sheet'),
   startMock: (mode: string, durationMinutes = 30) =>
     request<MockSession>('/api/mock/start', {
       method: 'POST',

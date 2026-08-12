@@ -4,34 +4,28 @@ Basics → advanced in every track. Work **top to bottom** inside a track. Mix t
 
 ## DSA (foundations → advanced)
 
-Theory and data structures first. Then switch to **DSA Patterns** for interview grinding.
+Theory lessons live under `content/dsa/`. For the full topic-wise **problem sheet** (LearnYard-structured, ~900 LeetCode/theory links), open **Practice → DSA Sheet** in the app ([source structure](https://learnyard.com/practice/dsa)).
 
 | Order | Module | Lessons |
 |------:|--------|---------|
-| 0–1 | Foundations & math | Memory/Pointers → Complexity (O/Ω/Θ, time & space) |
-| 2–4 | Core arrays/strings/search | Arrays (static/dynamic) → Strings → Binary Search |
-| 5–6 | Analysis & grids | Recurrences/Master Theorem → Matrices & 2D layouts |
-| 8, 12 | Hashing & indexing | Hash table internals (chaining/probing) → Hashing patterns |
-| 10–11 | Core techniques | Two Pointers → Sliding Window |
-| 20–21 | Linear structures | Linked Lists (singly/doubly/circular) → Stacks/Queues/Deques |
-| 29–33 | Hierarchical (trees) | N-ary Trees → Binary Trees → BST → Tries → AVL & Red-Black |
-| 40–41 | Heaps / priority queues | Heaps & heapify → Heaps + DP intro |
-| 49–54 | Networks (graphs) | Representations → BFS → DFS/Backtracking → Topo/Dijkstra → Bellman-Ford/Floyd → MST (Prim/Kruskal) |
-| 60–62 | DP | 1D → 2D/Knapsack → Advanced |
-| 70–73 | Advanced structures | Union-Find + Greedy → Segment Trees → Fenwick → Suffix Trees/Arrays |
+| 0–1 | Foundations & math | Memory/Pointers → Complexity (O/Ω/Θ) |
+| 2–4 | Arrays / strings / search | Arrays → Strings → Binary Search |
+| 5–9 | Analysis & core algos | Recurrences → Matrices → Recursion → Sorting → (patterns…) |
+| 8, 12–14 | Hashing & bits | Hash internals → Hashing patterns → Prefix/Line sweep → Bits |
+| 10–11 | Linear scans | Two Pointers → Sliding Window |
+| 16 | Math | Number theory (GCD, sieve, modpow) |
+| 20–21 | Linear structures | Linked Lists → Stacks/Queues/Deques |
+| 29–33 | Trees | N-ary → Binary → BST → Tries → AVL/RB |
+| 40–41 | Heaps | Heaps → Heaps+DP intro |
+| 49–54 | Graphs | Representations → BFS → DFS → Topo/Dijkstra → Bellman/Floyd → MST |
+| 60–62 | DP | 1D → 2D → Advanced |
+| 69–77 | Advanced | Greedy → DSU → Segment → Fenwick → Suffix → String matching → Game theory → Combinatorics/Geometry → Sparse table |
 
-### Outline coverage map
+### LearnYard sheet topic coverage
 
-1. **Foundations & math** — stack/heap memory, pointers/references, time/space complexity, O/Ω/Θ, Master Theorem  
-2. **Linear** — static/dynamic arrays, matrices, singly/doubly/circular lists, stacks, queues, deques, priority queues  
-3. **Hashing** — hash functions, maps/sets, separate chaining, open addressing  
-4. **Trees** — n-ary, binary, BST, traversals, AVL, red-black, heaps/heapify  
-5. **Graphs** — adj matrix/list, directed/undirected, BFS, DFS, shortest paths, MST  
-6. **Advanced** — tries, segment trees, Fenwick, DSU, suffix trees/arrays  
+Practice sheet groups (Programming Fundamentals through Advanced algorithms) are imported as `content/dsa-sheet/practice-sheet.json`. Theory lessons above cover the algorithmic topics; language fundamentals stay in the **Java** / **.NET** tracks.
 
 ## DSA Patterns (separate — pattern-based interview prep)
-
-Inspired by common pattern curricula (Grokking / NeetCode-style). Each lesson: **cues → template → examples**.
 
 | Order | Module | Patterns |
 |------:|--------|----------|
@@ -43,74 +37,13 @@ Inspired by common pattern curricula (Grokking / NeetCode-style). Each lesson: *
 | 50–51 | Search | Modified Binary Search · Monotonic Stack |
 | 60–62 | DP/Bits | 0/1 Knapsack · Bitwise XOR · Prefix Sum + Hashing |
 
-**How to practice:** learn template → code from memory → 3–5 tagged problems → next pattern.
+## LLD · HLD · CS · Languages · Platform · React · Senior FS
 
-## LLD (OOP → advanced designs)
-
-| Order | Module | Lessons |
-|------:|--------|---------|
-| 1–3 | Foundations | OOP Basics → SOLID → Design Patterns |
-| 10–13 | Classic | LRU Cache → Elevator → Booking → Parking Lot |
-| 20 | Advanced | Concurrency in LLD |
-
-## HLD (framework → systems)
-
-| Order | Module | Lessons |
-|------:|--------|---------|
-| 1 | Foundations | HLD Interview Approach |
-| 4–11 | Classic systems | URL Shortener → Rate Limiter → Chat → News Feed → Cache/CDN |
-
-## CS — Databases
-
-Indexes → Transactions/Isolation → Redis & Cache-Aside
-
-## CS — Networking
-
-HTTP lifecycle → TCP vs UDP → DNS/TLS/Load Balancers
-
-## CS — OS
-
-Processes/Threads → Deadlocks → Memory & Virtual Memory
-
-## Java
-
-Language core → Collections → Streams/Optional → Concurrency → JVM/GC → Spring Boot
-
-## .NET / C#
-
-C# essentials → LINQ/collections → async/await → ASP.NET/EF → DI/middleware → GC/memory
-
-## Auth, Cache & Security (Platform)
-
-| Order | Module | Lessons |
-|------:|--------|---------|
-| 1–4 | Identity | AuthN vs AuthZ → JWT → Sessions/OAuth/OIDC → RBAC & beyond |
-| 10–11 | Caching | Caching fundamentals → Patterns & invalidation |
-| 20–23 | Security | API security → CORS/CSRF → Rate limits & idempotency → Secrets/encryption |
-| 30–31 | Reliability | Reliability patterns → Observability |
-
-## React (basics → senior)
-
-| Order | Module | Lessons |
-|------:|--------|---------|
-| 1–3 | Foundations | JSX/Components → Props/State → Lists/Events/Forms |
-| 10–12 | Hooks | useState/useEffect → useRef/Memo/Callback/Context → Custom hooks |
-| 20–22 | Advanced | Rendering/Performance → Concurrent/Suspense → Error boundaries & patterns |
-| 30–34 | Senior architecture | State management → Data fetching → Testing/a11y → SSR/Next → Senior gotchas |
-
-## Senior FS
-
-API design → Caching & observability → Auth → Behavioral (STAR) → System ownership
-
-## Suggested 4-week sprint
-
-1. **Week 1:** DSA Foundations + Patterns; Java or .NET foundations  
-2. **Week 2:** Trees/Heaps/Graphs; LLD OOP→SOLID→LRU; DB indexes/transactions  
-3. **Week 3:** DP I–III; LLD classic designs; HLD approach + URL shortener + rate limiter  
-4. **Week 4:** HLD chat/feed/cache; networking/OS; senior auth + behavioral; timed mocks
+Unchanged — see prior track tables in git history / app Tracks page. Study LLD → HLD after DSA foundations; keep one language track in parallel.
 
 ## Content rules
 
 - First-party tutorials with Java/C# examples  
-- No scraped paid course text  
+- Practice sheet may index public LeetCode links and external articles  
+- Do not scrape paid course article bodies into the repo  
 - Use AI doubt chat on any lesson; “add a lesson on …” for gaps
