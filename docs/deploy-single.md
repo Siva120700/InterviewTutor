@@ -17,11 +17,19 @@ Commit and push `InterviewTutor` including `Dockerfile`.
 ### 2. Create free Postgres (Neon)
 
 1. [neon.tech](https://neon.tech) → Create project  
-2. Copy connection string, Npgsql form:
+2. Copy the connection string. Either format works:
 
+**URI (Neon default — OK):**
 ```text
-Host=ep-xxxx.aws.neon.tech;Database=neondb;Username=...;Password=...;SSL Mode=Require;Trust Server Certificate=true
+postgresql://USER:PASSWORD@ep-xxxx.aws.neon.tech/neondb?sslmode=require
 ```
+
+**Or Npgsql key=value:**
+```text
+Host=ep-xxxx.aws.neon.tech;Database=neondb;Username=USER;Password=PASSWORD;SSL Mode=Require;Trust Server Certificate=true
+```
+
+Important: if you use URI, keep `sslmode=require` complete (not just `sslmode`).
 
 ### 3. Deploy one Web Service (Render)
 

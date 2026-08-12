@@ -1,3 +1,4 @@
+using InterviewTutor.Api;
 using InterviewTutor.Api.Data;
 using InterviewTutor.Api.Services;
 using Microsoft.EntityFrameworkCore;
@@ -27,9 +28,10 @@ else if (!string.IsNullOrWhiteSpace(Environment.GetEnvironmentVariable("PORT"))
     builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 }
 
-var conn = builder.Configuration.GetConnectionString("Default")
+var connRaw = builder.Configuration.GetConnectionString("Default")
            ?? Environment.GetEnvironmentVariable("ConnectionStrings__Default")
            ?? "Host=localhost;Port=5433;Database=interviewtutor;Username=interviewtutor;Password=interviewtutor";
+var conn = PgConnectionString.Normalize(connRaw);
 
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseNpgsql(conn));
 builder.Services.AddSingleton<MarkdownLessonLoader>();

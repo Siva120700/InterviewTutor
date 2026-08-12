@@ -28,6 +28,7 @@ WORKDIR /app
 COPY --from=backend /app/publish ./
 ENV ASPNETCORE_ENVIRONMENT=Production
 ENV CONTENT_ROOT=/app/content
+# Render sets PORT; fall back for local docker run
 ENV ASPNETCORE_URLS=http://0.0.0.0:8080
 EXPOSE 8080
-ENTRYPOINT ["dotnet", "InterviewTutor.Api.dll"]
+CMD ["sh", "-c", "if [ -n \"$PORT\" ]; then export ASPNETCORE_URLS=http://0.0.0.0:$PORT; fi; exec dotnet InterviewTutor.Api.dll"]
