@@ -3,7 +3,7 @@ id: java-language-core
 title: Java Language Core
 track: java
 module: "01 Foundations"
-order: 1
+order: 5
 languages: [java]
 summary: Syntax, OOP, equals/hashCode, generics, and exceptions — the foundations every Java interview assumes.
 ---

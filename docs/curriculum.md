@@ -1,49 +1,45 @@
 # InterviewTutor — Go-to study path
 
-Basics → advanced in every track. Work **top to bottom** inside a track. Mix tracks weekly (e.g. DSA + one system topic + language).
+Basics → advanced in every track. Work **top to bottom** inside a track.
 
-## DSA (foundations → advanced)
+## DSA
 
-Theory lessons live under `content/dsa/`. For the full topic-wise **problem sheet** (LearnYard-structured, ~900 LeetCode/theory links), open **Practice → DSA Sheet** in the app ([source structure](https://learnyard.com/practice/dsa)).
+In-app theory: `content/dsa/`. Problem index: **Practice → DSA Sheet** ([LearnYard-structured](https://learnyard.com/practice/dsa)).
 
-| Order | Module | Lessons |
-|------:|--------|---------|
-| 0–1 | Foundations & math | Memory/Pointers → Complexity (O/Ω/Θ) |
-| 2–4 | Arrays / strings / search | Arrays → Strings → Binary Search |
-| 5–9 | Analysis & core algos | Recurrences → Matrices → Recursion → Sorting → (patterns…) |
-| 8, 12–14 | Hashing & bits | Hash internals → Hashing patterns → Prefix/Line sweep → Bits |
-| 10–11 | Linear scans | Two Pointers → Sliding Window |
-| 16 | Math | Number theory (GCD, sieve, modpow) |
-| 20–21 | Linear structures | Linked Lists → Stacks/Queues/Deques |
-| 29–33 | Trees | N-ary → Binary → BST → Tries → AVL/RB |
-| 40–41 | Heaps | Heaps → Heaps+DP intro |
-| 49–54 | Graphs | Representations → BFS → DFS → Topo/Dijkstra → Bellman/Floyd → MST |
-| 60–62 | DP | 1D → 2D → Advanced |
-| 69–77 | Advanced | Greedy → DSU → Segment → Fenwick → Suffix → String matching → Game theory → Combinatorics/Geometry → Sparse table |
+| Order | Focus |
+|------:|--------|
+| 0–1 | Memory/pointers · Big-O |
+| 2–4 | Arrays · Strings · Binary search |
+| 5–9 | Recurrences · Matrices · Sorting |
+| 7–8, 15–18 | Recursion · Hash internals · Number theory · OJ approach · Control-flow patterns |
+| 10–14 | Two pointers · Sliding window · Hashing · Prefix/line sweep · Bits |
+| 20–23 | Linked lists · Stacks/queues · Monotonic stack · LL design (LRU-style) |
+| 29–34 | N-ary · Binary trees · BST · Tries · AVL/RB · XOR trie |
+| 40–41 | Heaps |
+| 48–54, 78 | Graph reps · Cycles/flood/multi-source · BFS · DFS · Topo/Dijkstra · Shortest paths · MST · Bridges/SCC |
+| 60–65 | DP 1D · 2D · Advanced · TSP bitmask · LIS/Kadane/MCM · Digit DP |
+| 69–77 | Greedy · DSU · Segment · Fenwick · Suffix · String matching · Game theory · Combinatorics · Sparse table |
 
-### LearnYard sheet topic coverage
+## Java fundamentals → advanced
 
-Practice sheet groups (Programming Fundamentals through Advanced algorithms) are imported as `content/dsa-sheet/practice-sheet.json`. Theory lessons above cover the algorithmic topics; language fundamentals stay in the **Java** / **.NET** tracks.
+| Order | Lesson |
+|------:|--------|
+| 0 | Intro / JVM / JDK / first program |
+| 2 | Variables, types, operators, input |
+| 3 | If / switch / loops |
+| 4 | Arrays & methods |
+| 5 | Language core (OOP, equals, generics, exceptions) |
+| 10–11 | Collections · Streams/Optional |
+| 20 | Concurrency |
+| 30 | JVM & GC |
+| 40 | Spring Boot |
 
-## DSA Patterns (separate — pattern-based interview prep)
+## DSA Patterns · LLD · HLD · other tracks
 
-| Order | Module | Patterns |
-|------:|--------|----------|
-| 1 | Start | How to study with patterns |
-| 10–15 | Linear | Two Pointers · Sliding Window · Fast/Slow · Merge Intervals · Cyclic Sort · LL Reversal |
-| 20–24 | Tree/Graph | Tree BFS · Tree DFS · Islands/Matrix · Topological Sort · Union Find |
-| 30–32 | Heaps | Two Heaps · Top K · K-way Merge |
-| 40–41 | Recursion | Subsets · Backtracking |
-| 50–51 | Search | Modified Binary Search · Monotonic Stack |
-| 60–62 | DP/Bits | 0/1 Knapsack · Bitwise XOR · Prefix Sum + Hashing |
-
-## LLD · HLD · CS · Languages · Platform · React · Senior FS
-
-Unchanged — see prior track tables in git history / app Tracks page. Study LLD → HLD after DSA foundations; keep one language track in parallel.
+Use the Tracks page. Patterns track for interview grinding after DSA theory.
 
 ## Content rules
 
-- First-party tutorials with Java/C# examples  
-- Practice sheet may index public LeetCode links and external articles  
-- Do not scrape paid course article bodies into the repo  
-- Use AI doubt chat on any lesson; “add a lesson on …” for gaps
+- First-party tutorials (Java/C# where applicable)  
+- DSA Sheet may link out to LeetCode / external articles  
+- No scraped paid course article bodies  
