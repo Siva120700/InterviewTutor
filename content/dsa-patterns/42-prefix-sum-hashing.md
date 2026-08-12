@@ -48,6 +48,24 @@ foreach (int x in nums) {
 }
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium |
+| 2 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Medium |
+| 3 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Medium |
+| 4 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium |
+
+## YouTube (watch after attempting)
+
+- [NeetCode Arrays & Hashing](https://www.youtube.com/playlist?list=PLALUz6Z8Un2ew_yN3UAce8bOA25P5kaUl)
+- [NeetCode](https://www.youtube.com/@NeetCode) — Subarray Sum Equals K
+- [Striver](https://www.youtube.com/@takeUforward)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Prefix sum](https://en.wikipedia.org/wiki/Prefix_sum)

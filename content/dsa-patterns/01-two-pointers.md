@@ -79,14 +79,29 @@ public int[] TwoSum(int[] a, int t) {
 - Unsorted input where sorting changes the answer (indices) and hashing is better  
 - Need all subsequences (not contiguous / not ends)
 
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy |
+| 2 | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium |
+| 3 | [3Sum](https://leetcode.com/problems/3sum/) | Medium |
+| 4 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium |
+| 5 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard |
+
+## YouTube (watch after attempting)
+
+- [NeetCode](https://www.youtube.com/@NeetCode) — search each problem title  
+- [Blind 75 playlist](https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)  
+- [Striver / takeUforward](https://www.youtube.com/@takeUforward) — Two Pointer / A2Z sheet videos  
+
 ## Further study
 
-- [NeetCode](https://neetcode.io/) — pattern-oriented practice roadmap.
-- [LeetCode Two Pointers tag](https://leetcode.com/tag/two-pointers/) — drill set.
-- [Big-O cheat sheet](https://www.bigocheatsheet.com/) — complexity while practicing.
+- Master list: **Pattern-Wise Problems + Best YouTube Playlists** in this track  
+- [LeetCode Two Pointers tag](https://leetcode.com/tag/two-pointers/)
 
 ## Practice prompts
 
-1. 3Sum (sort + two pointers)  
-2. Container with most water  
-3. Remove duplicates from sorted array
+1. Code opposite-ends template from memory  
+2. Solve Two Sum II + 3Sum same day  
+3. Explain when hashing beats two pointers

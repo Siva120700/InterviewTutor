@@ -43,6 +43,23 @@ foreach (int x in a) {
 }
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium |
+| 2 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium |
+| 3 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium |
+| 4 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium |
+
+## YouTube (watch after attempting)
+
+- [NeetCode](https://www.youtube.com/@NeetCode) — Top K / Heap
+- [Striver Heap](https://www.youtube.com/@takeUforward/playlists)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Selection algorithm](https://en.wikipedia.org/wiki/Selection_algorithm)

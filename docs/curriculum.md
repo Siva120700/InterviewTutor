@@ -34,9 +34,30 @@ In-app theory: `content/dsa/`. Problem index: **Practice → DSA Sheet** ([Learn
 | 30 | JVM & GC |
 | 40 | Spring Boot |
 
-## DSA Patterns · LLD · HLD · other tracks
+## React (basics → senior)
 
-Use the Tracks page. Patterns track for interview grinding after DSA theory.
+| Order | Module | Lessons |
+|------:|--------|---------|
+| 1–5 | Foundations | JSX · Props/State · Lists/Forms · Reconciliation/Keys · Refs/Portals |
+| 9–18 | Hooks & composition | **Hooks dictionary (all definitions)** · useState/Effect · Ref/Memo/Callback/Context · Custom hooks · Routing · Context patterns · Code splitting · Advanced forms · useReducer/layout/external store · Hook recipes |
+| 20–24 | Advanced rendering | Performance · Concurrent/Suspense · Error boundaries · XSS security · TypeScript + React |
+| 30–36 | Senior | State at scale · Data fetching · Testing/a11y · SSR/Next · Gotchas · Modern React 19 · Machine coding |
+
+## DSA Patterns (problem-solving + YouTube)
+
+Track: **DSA Patterns**. Start with **Pattern-Wise Problems + Best YouTube Playlists**.
+
+| Focus | Channels / playlists |
+|-------|----------------------|
+| Pattern roadmap | [NeetCode](https://www.youtube.com/@NeetCode) · [neetcode.io](https://neetcode.io/practice) |
+| Deep A2Z | [Striver / takeUforward](https://www.youtube.com/@takeUforward) |
+| Sliding window + DP | [Aditya Verma SW](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj) · [Aditya DP](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFSrxB2olrIhfDt) |
+
+Each pattern lesson has a **solve-in-order LeetCode list** + YouTube links. Attempt first, then watch.
+
+## LLD · HLD · other tracks
+
+Use the Tracks page.
 
 ## Content rules
 

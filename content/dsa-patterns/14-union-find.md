@@ -55,6 +55,23 @@ class Dsu {
 }
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | Medium |
+| 2 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium |
+| 3 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) *(Premium)* | Medium |
+| 4 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/) | Medium |
+
+## YouTube (watch after attempting)
+
+- [NeetCode](https://www.youtube.com/@NeetCode) — Union Find / Redundant Connection
+- [Striver DSU](https://www.youtube.com/@takeUforward)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Disjoint-set data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)

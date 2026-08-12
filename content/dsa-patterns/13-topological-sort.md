@@ -49,6 +49,23 @@ while (q.Count > 0) {
 return order.Count == n ? order : new List<int>();
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium |
+| 2 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | Medium |
+| 3 | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | Medium |
+| 4 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) *(Premium)* | Hard |
+
+## YouTube (watch after attempting)
+
+- [NeetCode Graphs](https://www.youtube.com/playlist?list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI) — Course Schedule
+- [Striver Graph — Topo Sort](https://www.youtube.com/@takeUforward/playlists)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Topological sorting](https://en.wikipedia.org/wiki/Topological_sorting)

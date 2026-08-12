@@ -80,14 +80,29 @@ public int LengthOfLongestSubstring(string s) {
 - Non-contiguous subsequences  
 - Negative numbers with some “max sum of size ≤ k” variants (may need other tools)
 
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium |
+| 2 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Easy |
+| 3 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium |
+| 4 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard |
+| 5 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard |
+
+## YouTube (watch after attempting)
+
+- [NeetCode Sliding Window playlist](https://www.youtube.com/playlist?list=PLot-Xpze53leOBgcVsJBEGrHPd_7x_koV) — **best starting point**  
+- [Aditya Verma Sliding Window](https://www.youtube.com/playlist?list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj) — excellent pedagogy  
+- [Striver A2Z — Sliding Window & Two Pointer](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)  
+
 ## Further study
 
-- [Sliding window (CS concept)](https://en.wikipedia.org/wiki/Sliding_window_protocol) — related idea; interview use is subarray windows.
+- Master list: **Pattern-Wise Problems + Best YouTube Playlists**  
 - [LeetCode Sliding Window tag](https://leetcode.com/tag/sliding-window/)
-- [NeetCode](https://neetcode.io/)
 
 ## Practice prompts
 
-1. Max sum subarray of size k  
-2. Minimum window substring  
-3. Longest substring with at most K distinct
+1. Fixed-size max sum of k  
+2. Variable window with HashMap counts  
+3. Re-derive Minimum Window Substring after the video

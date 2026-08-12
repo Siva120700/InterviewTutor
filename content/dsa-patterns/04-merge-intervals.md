@@ -50,6 +50,25 @@ for (int i = 1; i < intervals.Length; i++) {
 res.Add(cur);
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium |
+| 2 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium |
+| 3 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium |
+| 4 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium |
+| 5 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) *(Premium)* / practice Mentions | Medium |
+
+## YouTube (watch after attempting)
+
+- [NeetCode](https://www.youtube.com/@NeetCode) — Merge / Insert Interval
+- [Blind 75 playlist](https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)
+- [Striver / takeUforward](https://www.youtube.com/@takeUforward)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Interval graph (overview)](https://en.wikipedia.org/wiki/Interval_graph) — theory background.

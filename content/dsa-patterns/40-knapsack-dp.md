@@ -41,6 +41,25 @@ for (int i = 0; i < n; i++)
     dp[c] = Math.Max(dp[c], dp[c - w[i]] + val[i]);
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy |
+| 2 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium |
+| 3 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium |
+| 4 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Medium |
+| 5 | [Target Sum](https://leetcode.com/problems/target-sum/) | Medium |
+
+## YouTube (watch after attempting)
+
+- [Aditya Verma DP playlist](https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFSrxB2olrIhfDt) — **best for knapsack intuition**
+- [Striver DP](https://www.youtube.com/@takeUforward/playlists)
+- [NeetCode](https://www.youtube.com/@NeetCode) — 1D/2D DP
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem)

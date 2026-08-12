@@ -52,6 +52,25 @@ bool HasCycle(ListNode head) {
 }
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy |
+| 2 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy |
+| 3 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy |
+| 4 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium |
+| 5 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy |
+
+## YouTube (watch after attempting)
+
+- [NeetCode](https://www.youtube.com/@NeetCode) — Linked List Cycle / Duplicate Number
+- [Blind 75 playlist](https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)
+- [Striver Linked List](https://www.youtube.com/@takeUforward/playlists)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Floyd’s tortoise and hare](https://en.wikipedia.org/wiki/Cycle_detection#Floyd's_tortoise_and_hare)

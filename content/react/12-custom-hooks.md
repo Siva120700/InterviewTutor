@@ -2,7 +2,7 @@
 id: react-custom-hooks
 title: Custom Hooks
 track: react
-module: "02 Hooks"
+module: "02 Hooks and Composition"
 order: 12
 languages: [typescript]
 summary: Extract reusable stateful logic — the senior composition tool.

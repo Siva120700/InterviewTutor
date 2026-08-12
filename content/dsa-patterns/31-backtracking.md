@@ -50,6 +50,24 @@ void Bt(State s) {
 }
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium |
+| 2 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium |
+| 3 | [Word Search](https://leetcode.com/problems/word-search/) | Medium |
+| 4 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium |
+| 5 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard |
+
+## YouTube (watch after attempting)
+
+- [NeetCode](https://www.youtube.com/@NeetCode) — Backtracking playlist/search
+- [Striver Recursion & Backtracking](https://www.youtube.com/@takeUforward/playlists)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Backtracking](https://en.wikipedia.org/wiki/Backtracking)

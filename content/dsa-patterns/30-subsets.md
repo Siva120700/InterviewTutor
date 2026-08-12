@@ -57,6 +57,23 @@ IList<IList<int>> Subsets(int[] nums) {
 }
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Subsets](https://leetcode.com/problems/subsets/) | Medium |
+| 2 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium |
+| 3 | [Permutations](https://leetcode.com/problems/permutations/) | Medium |
+| 4 | [Combinations](https://leetcode.com/problems/combinations/) | Medium |
+
+## YouTube (watch after attempting)
+
+- [NeetCode](https://www.youtube.com/@NeetCode) — Subsets / Permutations
+- [Striver Recursion playlist](https://www.youtube.com/@takeUforward/playlists)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Power set](https://en.wikipedia.org/wiki/Power_set)

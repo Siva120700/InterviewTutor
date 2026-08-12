@@ -47,12 +47,18 @@ if dependencies / courses             → Topological Sort
 
 1. Read the pattern lesson (template + cues)  
 2. Code the template from memory  
-3. Solve 3–5 related problems (easy → medium)  
-4. Only then move to the next pattern
+3. Solve the **pattern-wise problem list** (easy → medium → hard)  
+4. If stuck >20–25 min → watch the linked YouTube video, then **re-code**  
+5. Only then move to the next pattern  
+
+Full lists + playlists: **Pattern-Wise Problems + Best YouTube Playlists** (next lesson in this module).
 
 ## Further study
 
 - [NeetCode](https://neetcode.io/) — curated pattern-oriented practice roadmaps.
+- [NeetCode YouTube](https://www.youtube.com/@NeetCode) — best English pattern explainers.
+- [takeUforward / Striver](https://www.youtube.com/@takeUforward) — A2Z depth + Java/C++.
+- [Aditya Verma](https://www.youtube.com/@AdityaVermaTheProgrammingLord) — sliding window + DP playlists.
 - [Blind 75 list](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions) — classic focused problem set.
 - [Big-O cheat sheet](https://www.bigocheatsheet.com/) — complexity reference while practicing.
 

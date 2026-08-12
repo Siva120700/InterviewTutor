@@ -53,6 +53,23 @@ int[] NextGreater(int[] a) {
 }
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium |
+| 2 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy |
+| 3 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard |
+| 4 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard |
+
+## YouTube (watch after attempting)
+
+- [NeetCode](https://www.youtube.com/@NeetCode) — Daily Temperatures / Histogram
+- [Blind 75 playlist](https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Stack (abstract data type)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))

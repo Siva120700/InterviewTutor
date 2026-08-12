@@ -46,6 +46,24 @@ while (lo < hi) {
 return lo;
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy |
+| 2 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium |
+| 3 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium |
+| 4 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium |
+| 5 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | Medium |
+
+## YouTube (watch after attempting)
+
+- [NeetCode Binary Search playlist](https://www.youtube.com/playlist?list=PLot-Xpze53leNZQd0iINpD-MAhMOMzWvO) — **best**
+- [Striver Binary Search](https://www.youtube.com/@takeUforward/playlists) — deep (1D / answer space)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)

@@ -45,6 +45,22 @@ double median() {
 // use PriorityQueue with inverted priorities for max-heap lower half
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard |
+| 2 | [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | Hard |
+| 3 | [IPO](https://leetcode.com/problems/ipo/) | Hard |
+
+## YouTube (watch after attempting)
+
+- [NeetCode](https://www.youtube.com/@NeetCode) — Find Median from Data Stream
+- Search “two heaps pattern” after attempting
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Binary heap](https://en.wikipedia.org/wiki/Binary_heap)

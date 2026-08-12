@@ -2,7 +2,7 @@
 id: react-hooks-advanced
 title: useRef, useMemo, useCallback, useContext
 track: react
-module: "02 Hooks"
+module: "02 Hooks and Composition"
 order: 11
 languages: [typescript]
 summary: Refs vs state, memoization when it matters, and context for cross-tree data.
@@ -21,6 +21,7 @@ Senior interviews probe whether you *overuse* memoization or misuse refs. Know t
 - **Context:** React’s tree-scoped dependency injection for shared data (theme, auth)—not automatically a global store.
 - **Referential equality:** `Object.is` / `===` identity; new object/function literals each render defeat memoization.
 - **React Compiler:** Tooling that can auto-memoize; interviews still expect you to understand manual memo trade-offs.
+- **memo(Component):** Higher-order component that bails out of re-render when props are shallow-equal.
 
 
 ## useRef
@@ -29,19 +30,36 @@ Senior interviews probe whether you *overuse* memoization or misuse refs. Know t
 const inputRef = useRef<HTMLInputElement>(null);
 useEffect(() => { inputRef.current?.focus(); }, []);
 
-// Also: store previous value / timer ids without re-render
+// Mutable box — no re-render
+const timerId = useRef<number | null>(null);
+timerId.current = window.setTimeout(() => {}, 0);
+
+// Previous value pattern
 const prev = useRef(value);
+useEffect(() => { prev.current = value; }, [value]);
 ```
+
+| | `useState` | `useRef` |
+|---|------------|----------|
+| Changing value re-renders? | Yes | No |
+| Shown in UI? | Usually | Rarely (DOM/imperative) |
+| Readable during render? | Yes | `.current` yes, but changing it doesn’t schedule render |
 
 ## Memoization (use sparingly)
 
 ```tsx
 const sorted = useMemo(() => [...items].sort(byName), [items]);
 const onSelect = useCallback((id: string) => setSelected(id), []);
+
+const Child = memo(function Child({ onSelect }: { onSelect: (id: string) => void }) {
+  return <button type="button" onClick={() => onSelect('1')}>Pick</button>;
+});
 ```
 
 **When:** expensive pure calc, or stable callbacks for heavily memoized children.  
 **Not when:** premature optimization on cheap renders.
+
+`useCallback(fn, deps)` ≡ `useMemo(() => fn, deps)`.
 
 ## Context
 

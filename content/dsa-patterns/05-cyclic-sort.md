@@ -46,6 +46,25 @@ while (i < n) {
 }
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy |
+| 2 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy |
+| 3 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Medium |
+| 4 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | Easy |
+| 5 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard |
+
+## YouTube (watch after attempting)
+
+- [NeetCode](https://www.youtube.com/@NeetCode) — Missing Number / First Missing Positive
+- Search “cyclic sort pattern” on YouTube after attempting
+- [Striver Arrays](https://www.youtube.com/@takeUforward)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Cycle sort](https://en.wikipedia.org/wiki/Cycle_sort) — related sorting algorithm.

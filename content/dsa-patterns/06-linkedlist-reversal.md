@@ -53,6 +53,25 @@ ListNode Reverse(ListNode head) {
 }
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy |
+| 2 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium |
+| 3 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium |
+| 4 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium |
+| 5 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard |
+
+## YouTube (watch after attempting)
+
+- [NeetCode](https://www.youtube.com/@NeetCode) — Reverse Linked List / k-Group
+- [Striver Linked List playlist](https://www.youtube.com/@takeUforward/playlists)
+- [Blind 75 playlist](https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Linked list](https://en.wikipedia.org/wiki/Linked_list)

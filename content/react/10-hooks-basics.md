@@ -2,7 +2,7 @@
 id: react-hooks-basics
 title: Hooks Basics — useState and useEffect
 track: react
-module: "02 Hooks"
+module: "02 Hooks and Composition"
 order: 10
 languages: [typescript]
 summary: Rules of hooks, state updates, effect lifecycle, cleanup, and dependency arrays.
@@ -21,6 +21,8 @@ Hooks are the modern React API. Seniors must explain effects, deps, and cleanup 
 - **Dependency array:** Values the effect depends on; React re-runs the effect when any dependency changes (`Object.is`).
 - **Cleanup:** Function returned from an effect that undoes subscriptions/timers/aborts before re-run or unmount.
 - **Stale closure:** Effect or handler capturing old props/state because dependencies were incomplete or wrong.
+- **Batching:** React groups multiple state updates in one event/task into a single re-render.
+- **Lazy initialization:** Passing `useState(() => initial)` so expensive setup runs once on mount only.
 
 
 ## useState
@@ -29,6 +31,24 @@ Hooks are the modern React API. Seniors must explain effects, deps, and cleanup 
 const [query, setQuery] = useState('');
 setQuery('react');           // replace
 setQuery(q => q.trim());     // functional update from previous
+
+// Lazy init — function runs once
+const [data, setData] = useState(() => createExpensiveIndex(items));
+
+// Object / array state — replace immutably
+setUser(u => ({ ...u, name: 'Ada' }));
+setItems(list => [...list, item]);
+```
+
+### Derived state (no effect)
+
+```tsx
+// Good — compute during render
+const fullName = `${first} ${last}`;
+const visible = items.filter(i => i.active);
+
+// Bad — mirror props/state in an effect
+// useEffect(() => setFullName(`${first} ${last}`), [first, last]);
 ```
 
 ## useEffect
@@ -48,10 +68,12 @@ useEffect(() => {
 
 | Deps | Behavior |
 |------|----------|
-| none omitted (illegal pattern) | — use `[]` or deps |
+| omitted | Runs after **every** render — rarely what you want |
 | `[]` | mount (+ strict remount in dev) |
 | `[a,b]` | when a/b change |
 | forgotten deps | stale closures / bugs |
+
+See **Hooks Dictionary** for the full list of built-in hooks and definitions.
 
 ## Interview Q&A
 

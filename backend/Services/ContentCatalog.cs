@@ -6,7 +6,7 @@ public static class ContentCatalog
         new Dictionary<string, (string, string, string)>(StringComparer.OrdinalIgnoreCase)
         {
             ["dsa"] = ("DSA", "Interview", "Foundations through advanced algorithms — pair with Practice → DSA Sheet"),
-            ["dsa-patterns"] = ("DSA Patterns", "Interview", "Pattern-based coding interview prep — templates and recognition cues"),
+            ["dsa-patterns"] = ("DSA Patterns", "Interview", "Pattern templates + problem lists + NeetCode/Striver/Aditya YouTube"),
             ["lld"] = ("LLD", "Interview", "OOP, SOLID, and class design"),
             ["hld"] = ("HLD", "Interview", "System design, trade-offs, capacity"),
             ["senior-fs"] = ("Senior FS", "Interview", "APIs, caching, concurrency, leadership"),

@@ -50,6 +50,25 @@ void Dfs(char[][] g, int i, int j) {
 }
 ```
 
+
+## Pattern-wise problems (solve in order)
+
+| # | Problem | Level |
+|---|---------|-------|
+| 1 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium |
+| 2 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium |
+| 3 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | Easy |
+| 4 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium |
+| 5 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Medium |
+
+## YouTube (watch after attempting)
+
+- [NeetCode Graphs playlist](https://www.youtube.com/playlist?list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI)
+- [Striver Graph series](https://www.youtube.com/@takeUforward/playlists)
+- Search “Number of Islands NeetCode”
+
+Master index: **Pattern-Wise Problems + Best YouTube Playlists** (Start Here module).
+
 ## Further study
 
 - [Connected component](https://en.wikipedia.org/wiki/Component_(graph_theory))
